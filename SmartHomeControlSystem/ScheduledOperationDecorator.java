@@ -4,7 +4,7 @@ class ScheduledOperationDecorator extends Light {
     public Light decoratedLight;
 
     public ScheduledOperationDecorator(Light light) {
-        super(light.name); // Передаем имя в родительский конструктор Light
+        super(light.name);
         this.decoratedLight = light;
     }
 

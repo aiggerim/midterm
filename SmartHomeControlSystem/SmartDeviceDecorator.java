@@ -1,5 +1,7 @@
 package SmartHomeControlSystem;
 
+// Decorator Pattern
+
 import SmartHomeControlSystem.SmartDevice;
 
 abstract class SmartDeviceDecorator implements SmartDevice {
