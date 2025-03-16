@@ -1,3 +1,7 @@
+package SmartHomeControlSystem;
+
+import SmartHomeControlSystem.LegacyLockSystem;
+
 class LockAdapter implements SmartDevice {
     private LegacyLockSystem lockSystem;
 

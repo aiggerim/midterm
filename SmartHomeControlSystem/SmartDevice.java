@@ -1,3 +1,5 @@
+package SmartHomeControlSystem;
+
 import java.util.*;
 // Composite Pattern
 interface SmartDevice {

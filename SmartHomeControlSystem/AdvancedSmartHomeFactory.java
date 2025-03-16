@@ -1,7 +1,8 @@
+package SmartHomeControlSystem;
 
 class AdvancedSmartHomeFactory implements SmartDeviceFactory {
     @Override
-    public ScheduledOperationDecorator createLight(String name) {
+    public Light createLight(String name) {
         return new ScheduledOperationDecorator(new Light(name));
     }
 }

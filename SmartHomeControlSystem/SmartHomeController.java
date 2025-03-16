@@ -1,4 +1,6 @@
-// --- Facade Pattern ---
+package SmartHomeControlSystem;// --- Facade Pattern ---
+import SmartHomeControlSystem.SmartDevice;
+
 import java.util.*;
 class SmartHomeController {
     private List<SmartDevice> devices = new ArrayList<>();

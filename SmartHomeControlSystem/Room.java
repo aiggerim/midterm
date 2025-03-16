@@ -1,3 +1,7 @@
+package SmartHomeControlSystem;
+
+import SmartHomeControlSystem.SmartDevice;
+
 import java.util.*;
 class Room implements SmartDevice {
     private String name;

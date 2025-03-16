@@ -1,3 +1,7 @@
+package SmartHomeControlSystem;
+
+import SmartHomeControlSystem.LegacyLockSystem;
+
 class OldLock implements LegacyLockSystem {
     @Override
     public void unlock() {

@@ -1,5 +1,9 @@
+package SmartHomeControlSystem;
+
+import SmartHomeControlSystem.SmartDevice;
+
 class Light implements SmartDevice {
-    private String name;
+    String name;
 
     public Light(String name) {
         this.name = name;

@@ -1,3 +1,7 @@
+package SmartHomeControlSystem;
+
+import SmartHomeControlSystem.*;
+
 public class SmartHomeDemo {
     public static void main(String[] args) {
         SmartHomeController controller = new SmartHomeController();
